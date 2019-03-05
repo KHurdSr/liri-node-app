@@ -58,7 +58,7 @@ function runLiri() {
             });
 
             //Run request to bandsintown with the specified artist
-            var queryURL = "https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp"
+            var queryURL = "https://rest.bandsintown.com/artists/" + Drake + "/events?app_id=codingbootcamp"
             request(queryURL, function (error, response, body) {
                 //If no error and response is a success
                 if (!error && response.statusCode === 200) {
